@@ -15,13 +15,13 @@ Here are the instructions on how to use the Real-ESRGAN wrapper instead of this 
 -[Linux](https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesrgan-ncnn-vulkan-20220424-ubuntu.zip)
 Unzip the file and navigate to the unzipped folder.
 
-Create two folders: `inputs` and `outputs`.
+2. Create two folders: `inputs` and `outputs`.
 
-Add the images you want to upscale to the `inputs` folder.
+3. Add the images you want to upscale to the `inputs` folder.
 
-Open a terminal and navigate to your folder (`cd path/to/folder`).
+4. Open a terminal and navigate to your folder (`cd path/to/folder`).
 
-Run the following command: `./realesrgan-ncnn-vulkan.exe -n realesrgan-x4plus -i inputs -o outputs`. This will do the conversions and let you know when it's doing/done with each input file. It will put the output files in the `outputs` folder with names like "inputfilename_out".
+5. Run the following command: `./realesrgan-ncnn-vulkan.exe -n realesrgan-x4plus -i inputs -o outputs`. This will do the conversions and let you know when it's doing/done with each input file. It will put the output files in the `outputs` folder with names like "inputfilename_out".
 
 **Note 1**: If you try this on an image that has faces in it and the faces get warped in the upscale, try adding `--face_enhance` to the end of the command, like: `./realesrgan-ncnn-vulkan.exe -n realesrgan-x4plus -i inputs -o outputs --face_enhance`.
 
