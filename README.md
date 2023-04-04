@@ -7,7 +7,7 @@ To use, simply run `./upscale_runner.sh` in a terminal window. This will run the
 **Note**: This wrapper is CPU only and therefore relatively slow. If you have an Nvidia-enabled GPU, it may use GPU by default (not tested). However, Real-ESRGAN has its own standalone wrapper which is more dynamic and natively has GPU support for all major GPU manufacturers. If you've made it here, you might want to use their wrapper instead. Instructions below on how to do that
 
 ## Real-ESRGAN Wrapper
-Here are the instructions on how to use the Real-ESRGAN wrapper instead of this limited:
+Here are the instructions on how to use the Real-ESRGAN wrapper instead of this limited one:
 
 1. Download the wrapper from the following links based on your operating system (if the link doesn't work, check the Real-SRGAN repo for the updated links):
 -[Windows](https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesrgan-ncnn-vulkan-20220424-windows.zip)
