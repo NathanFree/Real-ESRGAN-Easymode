@@ -2,9 +2,12 @@
 
 This script (`upscale_runner.sh`) is a thin wrapper around [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) and can be used to upscale images.
 
-To use, simply run `./upscale_runner.sh` in a terminal window. This will run the Python script on all images in the inputs directory and save the outputs in the outputs directory.
+To use:
+1. Add the images you want to upscale to the `inputs` folder.
+2. remove my sample images from the inputs folder (unless you just want to test it for yourself with my input image)
+3. run `./upscale_runner.sh` in a terminal window. This will run the Python script on all images in the inputs directory and save the outputs in the outputs directory.
 
-**Note**: This wrapper is CPU only and therefore relatively slow. If you have an Nvidia-enabled GPU, it may use GPU by default (not tested). However, Real-ESRGAN has its own standalone wrapper which is more dynamic and natively has GPU support for all major GPU manufacturers. If you've made it here, you might want to use their wrapper instead. Instructions below on how to do that
+**Note**: This wrapper is CPU only and therefore relatively slow. If you have an Nvidia-enabled GPU, it may use GPU by default (not tested). However, Real-ESRGAN has its own standalone wrapper which is more dynamic (albiet less user-friendly) and natively has GPU support for all major GPU manufacturers. If you've made it here, you might want to use their wrapper instead. Instructions below on how to do that
 
 ## Real-ESRGAN Wrapper
 Here are the instructions on how to use the Real-ESRGAN wrapper instead of this limited one:
